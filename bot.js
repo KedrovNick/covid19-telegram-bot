@@ -99,4 +99,4 @@ bot.on(['sticker', 'photo'], (ctx) => {
     return ctx.reply('Cool! I like that, but I got no responde for that!')
   })
 
-bot.launch();
+bot.startPolling()
