@@ -89,7 +89,6 @@ bot.command('news', async (ctx) => {
       .then(res => {
         //ctx.reply(res.data.articles[0].title);
         ctx.replyWithPhoto(res.data.articles[0].urlToImage)
-        console.log(res.data.articles[0].title);
       }).catch(e => {
           console.log(e);
       })
